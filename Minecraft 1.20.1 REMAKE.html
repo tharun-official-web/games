@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html style="width:100%;height:100%;background-color:black;">
 	<head>
@@ -11,9 +10,8 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="EaglyMC 1.20" />
 		<meta property="og:description" content="test directory HTML page" />
-		<link type="image/png" rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/tharuniscool/elite-gamez.github.io@main/g/minecraft-20/favicon.png" />
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tharuniscool/elite-gamez.github.io@main/g/minecraft-20/
-classes.js"></script>
+		<link type="image/png" rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/1234chromebook1234-creator/ee@main/favicon.png" />
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/1234chromebook1234-creator/ee@main/classes.js"></script>
 		<script type="text/javascript">
 			"use strict";
 			window.addEventListener("load", function() {
@@ -24,8 +22,8 @@ classes.js"></script>
 					window.eaglercraftXOpts = {
 						demoMode: false,
 						container: "game_frame",
-						assetsURI: "https://cdn.jsdelivr.net/gh/tharuniscool/elite-gamez.github.io@main/g/minecraft-20/assets.epk",
-						localesURI: "https://cdn.jsdelivr.net/gh/tharuniscool/elite-gamez.github.io@main/g/minecraft-20/lang/",
+						assetsURI: "https://cdn.jsdelivr.net/gh/1234chromebook1234-creator/ee@main/assets.epk",
+						localesURI: "https://cdn.jsdelivr.net/gh/1234chromebook1234-creator/ee@main/lang/",
 						worldsDB: "worlds",
 						logInvalidCerts: true,
 						crashOnUncaughtExceptions: true,
@@ -33,13 +31,12 @@ classes.js"></script>
 							{ addr: "ws://localhost:8081/", name: "Local test server" }
 						],
 						relays: [
-          { addr: "wss://relay.deev.is/", comment: "lax1dude relay #1", primary: relayId === 0 },
-          { addr: "wss://relay.lax1dude.net/", comment: "lax1dude relay #2", primary: relayId === 1 },
-          { addr: "wss://relay.shhnowisnottheti.me/", comment: "ayunami relay #1", primary: relayId === 2 },
-          { addr: "wss://wisp.classroom.lat/", comment: "(CUSTOM) kryption replay #1", primary: relayId === 4 },
-          { addr: "wss://wisp.mercurywork.shop/", comment: "(CUSTOM) sandstone relay #1", primary: relayId === 4 }
-        ]
-      };
+							{ addr: "wss://relay.deev.is/", comment: "lax1dude relay #1", primary: relayId === 0 },
+							{ addr: "wss://relay.lax1dude.net/", comment: "lax1dude relay #2", primary: relayId === 1 },
+							{ addr: "wss://relay.shhnowisnottheti.me/", comment: "ayunami relay #1", primary: relayId === 2 }
+						]
+					};
+
 					var q = window.location.search;
 					if((typeof q === "string") && q[0] === "?" && (typeof window.URLSearchParams !== "undefined")) {
 						q = new window.URLSearchParams(q);
